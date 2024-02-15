@@ -157,15 +157,16 @@ p {
 }
 /* Terms and conditions */
 .terms-c {
-  padding: 40px 0;
+  padding: 30px 0;
   /* margin: 40px 0; */
-  margin-top: 100px;
+  margin-top: 40px;
   background-color: #f4f4f4;
 }
 .terms-c .secondary-heading {
   background-color: #838282;
   text-align: center;
   color: #fff;
+  padding: 20px 0;
 }
 .terms-c .sub-heading {
   padding: 20px 0 40px 0;
