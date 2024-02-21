@@ -47,35 +47,11 @@ p {
   padding: 0 2rem;
   overflow: hidden;
 }
-/* Navigation */
-/* #main-nav {
-  background-color: #6665ff;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-#main-nav .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 1rem;
-  align-items: center;
-}
-
-#main-nav .logo a {
-  font-size: 1.7rem;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-} */
-/* #main-nav .logo img {
-  width: 80px;
-  height: 70px;
-} */
 /* navbar */
 .navbar {
   /* background: #fff; */
   /* background: rgba(44, 36, 70, 0.5); */
-  background: #0e58b6;
+  background: #6665ff;
   padding: 20px;
   position: fixed;
   top: 0;
@@ -315,7 +291,7 @@ p {
   width: 250px;
   height: 100%;
   z-index: 100;
-  background: red;
+  background: #0e58b6;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   transition: right 0.3s ease-in-out;
 }
