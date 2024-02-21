@@ -296,4 +296,8 @@ p {
   .navbar .hamburger-button {
     display: block;
   }
+  .main .d-flex {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
