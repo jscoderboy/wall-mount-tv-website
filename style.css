@@ -78,7 +78,7 @@ p {
   color: #fff;
 }
 .navbar ul li a:hover {
-  color: var(--primary-color);
+  color: var(--dark-color);
 }
 /* Showcase */
 #showcase {
@@ -296,8 +296,28 @@ p {
   .navbar .hamburger-button {
     display: block;
   }
-  .main .d-flex {
+  .main .d-flex,
+  .contact-us .row {
     flex-direction: column;
     gap: 10px;
+  }
+  .contact-us .form-col {
+    width: 100%;
+  }
+  .contact-us .social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+  }
+  .contact-us .contact-wrapper h3 {
+    font-size: 1.1rem;
+  }
+  .contact-us .contact-wrapper i {
+    font-size: 20px;
+  }
+  .contact-us .contact-wrapper i {
+    padding: 15px;
   }
 }
