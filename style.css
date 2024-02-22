@@ -293,6 +293,12 @@ p {
   .navbar .main-menu {
     display: none;
   }
+  .navbar .logo a {
+    font-size: 1.5rem;
+  }
+  #showcase .showcase-container {
+    height: 100%;
+  }
   .navbar .hamburger-button {
     display: block;
   }
@@ -319,5 +325,12 @@ p {
   }
   .contact-us .contact-wrapper i {
     padding: 15px;
+  }
+  #main-footer ul li {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  #main-footer .footer-links {
+    margin: 10px 0px;
   }
 }
